@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">CONSULTA PESSOAS</h5>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Id. da Pessoa</label>
+        <input #personId type="number" class="form-control" aria-describedby="personIdHelp" placeholder="0">
+        <small id="personIdHelp" class="form-text text-muted">Entre com o código da pessoa (de 1 a 3).</small>
+      </div>
+      <div class="form-group">
+        <label for="person">Nome da Pessoa</label>
+        <label class="form-control readonly">{{personName}}</label>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="findPerson(personId.value)">Consultar</button>
+    </form>
+  </div>
+</div>
