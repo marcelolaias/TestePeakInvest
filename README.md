@@ -2,22 +2,28 @@
 
 > Status do Projeto: :heavy_check_mark: :warning: (concluido)
 
-### Tópicos 
-
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
-
 ## Descrição do projeto 
 
 <p align="justify">
-  APIs do jogo da forca escrito em NodeJS com a linguagem de consulta GraphQL.
+  Montar uma aplicação básica com duas camadas: front-end em angular e o back-end deve ser uma API em ASP.NET C#.
 </p>
+
+## Development server
+
+### Backend
+
+Execute `dotnet watch run` para um servidor de desenvolvimento. As APIs estarão diponíveis na seguinte url `https://localhost:5001/`. 
+
+### Frontend
+
+Execute `npm start` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/` para executar o aplicativo. 
 
 ## Linguagens e libs utilizadas :books:
 
-- [NodeJS](https://nodejs.org/pt-br/): versão 14.16.0
-- [GraphQL](https://graphql.org/): versão 14.2.1
-- [Apollo GraphQL](https://www.apollographql.com/): versão 14.2.1
-
+- [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+- [.NET Core](https://dotnet.microsoft.com/download/dotnet/3.1): versão 3.1
+- [.NET C#](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/configure-language-version) : versão 8.0
+- [ASP.NET](https://docs.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-aspnet-core?view=vs-2019)
 
 ## Licença 
 
